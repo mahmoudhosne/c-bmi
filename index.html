@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="gym, bmi" />
+    <meta name="Calc BMI" content="calc your bmi" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css"/>
+    <title>Calc BMI</title>
+</head>
+
+<body>
+    <header>
+        <h1>claculae your body math index</h1>
+        <div class="all-elements">
+
+            <div class="inputs">
+                <!-- for -->
+                <label class="label-height" for="heightcm">
+                    <input   type="number" placeholder="cm" class="height" required /> height
+                </label>
+                <label class="label-weight"  for="weightkg">
+                    <input type="number" placeholder="kg" class="weight" required /> weight
+                </label>
+                <label class="label-weight" for="nametext">
+                    <input  type="text" class="userName" required /> Name
+                </label>
+                <label class="radioMale" for="male"><input type="radio" id="usergender" class="male" name="gender" value="theGender">male</label><br>
+                
+                <label class="radiofeMale" for="female"><input type="radio" id="usergender2" class="female" name="gender" value="theGender">female</label><br>
+                
+
+                <button class="send">Calc</button>
+                <button class="sendtwo">Reset</button>
+            </div>
+           
+                <div class="modal hidden">
+                   
+                 <button class="close-modal">&times;</button>
+                 <p class="user-messege"></p>
+                 <span class="calc"></span>
+                </div>
+           
+            <div class="overlay hidden"></div>
+            <script src="script.js"></script>
+        </div>
+    </header>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+</html>

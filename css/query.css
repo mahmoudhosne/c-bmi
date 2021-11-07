@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 60%;
+  }
+  label {
+    width: 94%;
+    font-size: 45%;
+  }
+  input {
+    font-size: 60%;
+    text-transform: none;
+  }
+  .male {
+    font-size: 1%;
+  }
+  .weight,
+  .height,
+  .userName {
+    padding-left: 42%;
+  }
+  .send,
+  .sendtwo {
+    font-size: 60%;
+  }
+  .radioMale,
+  .radiofeMale {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .weight,
+  .height,
+  .userName {
+    padding-left: 0;
+    width: 100%;
+  }
+  h1 {
+    font-size: 50%;
+  }
+  label {
+    font-size: 40%;
+  }
+  .radioMale,
+  .radiofeMale {
+    font-size: 19px;
+  }
+  .send,
+  .sendtwo {
+    font-size: 51%;
+  }
+}
+
+ @media only screen and (max-width: 767px) {
+    label {
+        margin-left: 29%;
+        padding-left: 1%;
+        font-size: 36%;
+    }
+    .height, .weight, .userName{
+        width: 92px;
+    }
+    .radiofemale{
+        margin-top: -33%;
+    }
+    .send, .sendtwo {
+        font-size: 32%;
+    }
+}
+
+/* @media only screen and (max-width: 480px) {
+} */ */

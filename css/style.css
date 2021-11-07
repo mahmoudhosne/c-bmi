@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+html {
+  text-rendering: optimizeLegibility;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
+}
+body {
+  background-color: rgb(26, 24, 24);
+}
+header {
+  background-image: url(img/wp3521813.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+p {
+  font-size: 80%;
+}
+.all-elements {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  /* margin: auto; */
+  width: 100%;
+  color: aliceblue;
+  display: inline-block;
+  padding-top: 3%;
+  padding-left: 5%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 80%;
+  padding-bottom: 1%;
+  text-transform: capitalize;
+}
+input {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+input[type='radio'] .radioMale {
+  display: block;
+  margin-top: -7%;
+}
+input[type='text'] {
+  margin-left: 3%;
+}
+label {
+  direction: rtl;
+  display: block;
+  font-size: 55%;
+  padding: 3% 87px;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: aliceblue;
+  margin-left: -3%;
+}
+.all-messege {
+  margin-top: 18%;
+  color: white;
+}
+.weight,
+.height,
+.userName {
+  width: 70%;
+  padding: 2%;
+  display: inline-block;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+.radioMale,
+.radiofeMale {
+  font-family: 'Yanone Kaffeesatz';
+  color: black;
+  font-size: 35px;
+}
+.radiofeMale {
+  margin-top: -3%;
+}
+
+.send {
+  width: 7%;
+  margin: auto;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: -1% 3%;
+  border-radius: 10px;
+  font-size: 90%;
+  font-family: 'Yanone Kaffeesatz';
+  background-color: aquamarine;
+  text-transform: capitalize;
+  margin-bottom: 2%;
+  cursor: pointer;
+  position: absolute;
+}
+.sendtwo {
+  position: absolute;
+  cursor: pointer;
+  width: 7%;
+  margin: auto;
+  margin-top: 2%;
+  padding: -1% 3%;
+  border-radius: 10px;
+  font-size: 90%;
+  font-family: 'Yanone Kaffeesatz';
+  background-color: #353330;
+  text-transform: capitalize;
+  margin-bottom: 2%;
+  margin-left: -7%;
+}
+.modal {
+  z-index: 10;
+  background-color: white;
+  position: relative;
+  height: 190px;
+  margin: auto;
+  margin-top: -29%;
+  font-size: 70%;
+  text-align: center;
+}
+.modal .user-messege {
+  /* position: absolute; */
+  left: 25%;
+  padding-top: 5%;
+  /* top: 20%; */
+}
+.modal .close-modal {
+  position: absolute;
+  left: 94.9%;
+  width: 31px;
+  height: 28px;
+
+  background-color: white;
+  border: none;
+  font-size: 73%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.modal .close-modal:hover {
+  background-color: red;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
